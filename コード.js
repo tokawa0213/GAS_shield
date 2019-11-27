@@ -1,9 +1,9 @@
 //Sheet setting
-var CHANNEL_ACCESS_TOKEN = 'RZojywHPpyKen3RODvlShZy1p4pi/NGuwQFAQzsfyrRKBMDymjSkcK6NR6dKf8Wzmh/jG28AKFVqVwIQ6irE/56glDhetExqePRBAfo4FuppbrWCyqq0kFB+ZOYxrModAszF3lcBwpv0KODbi4HSoQdB04t89/1O/w1cDnyilFU='; 
-var line_endpoint = 'https://api.line.me/v2/bot/message/reply';
-var spreadsheet = SpreadsheetApp.openById('15u2W565QUaBLGMlFuiTEapImDAtlUMdZhMKA68TKUZw');
-var sheet = spreadsheet.getSheetByName('RemixBought');
-var folder_id = "16Iilahkk4hc4nvQ9OO6gTLzlAuL6fCKu"
+var CHANNEL_ACCESS_TOKEN = ''; 
+var line_endpoint = '';
+var spreadsheet = SpreadsheetApp.openById('');
+var sheet = spreadsheet.getSheetByName('');
+var folder_id = ""
 
 function addJobQue(id,result,name_to_image){
   var newQue = {
